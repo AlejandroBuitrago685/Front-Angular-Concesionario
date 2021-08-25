@@ -35,8 +35,8 @@ export class CocheServiceService {
   }
 
   //Actualizar coche
-  update(estudiante:Car):Observable<Car>{
-    return this.http.put<Car>(this.RutaCoche + "/update/", estudiante);
+  update(coche:Car):Observable<Car>{
+    return this.http.put<Car>(this.RutaCoche + "/update/", coche);
   }
 
 }
