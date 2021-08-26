@@ -1,0 +1,86 @@
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .tarjetaOpciones{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 20%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 2px 2px 10px black;
+    text-align: center;
+    color: #333;
+  }
+
+  .tarjetaOpciones button{
+      width: 50%;
+      align-self: center;
+  }
+
+  .menu-container {
+    width: 100%;
+    height: 100%;
+    background-image: url("src\assets\images\carbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+
+  .contenido-menu{
+    background-color: white;
+  }
+
+  .headerMenu{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  #home::before{
+    content: url(src\assets\images\home.png);
+    margin-right: 10px;
+  }
+  
+  .client::before{
+    content: url(src\assets\images\person.png);
+    margin-right: 10px;
+  }
+  
+  .car::before{
+    content: url(src\assets\images\car.png);
+    margin-right: 10px;
+  }
+
+  .vertical-menu {
+    width: auto;
+  }
+  
+  .vertical-menu a {
+    background-color: white; 
+    color: #333;
+    display: flex;
+    font-size: medium;
+    padding: 12px;
+    text-decoration: none; 
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; 
+  }
+  
+  .vertical-menu a.active {
+    background-color: #1976d2; 
+    color: white;
+  }
